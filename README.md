@@ -28,7 +28,15 @@ To install this package run
 
 or using Poetry:
 
-`poetry add starknet.py`
+`poetry add starknet.py`  
+<details>
+  <summary>Troubleshooting:</summary>
+  
+  *  `ERROR: Failed building wheel for fastecdsa`  
+  _Solution_: ```sudo apt install gcc python-dev libgmp3-dev``` 
+  
+  
+</details>
 
 ## ▶️ Example usage
 ### Asynchronous API
